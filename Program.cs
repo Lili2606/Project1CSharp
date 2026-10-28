@@ -1,4 +1,5 @@
 ﻿using System.Text.RegularExpressions;
+using ConsoleApp1.DataLayer.Models;
 
 namespace ConsoleApp1
 {
@@ -6,8 +7,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter you name and last name");
+            Student s = new();
+
+
+            Console.WriteLine("Please enter your Name");
             string name = Console.ReadLine();
+            Console.WriteLine("Please enter your LastName");
+            string LastName = Console.ReadLine();
             Console.WriteLine("Please enter your birth date");
             DateTime birthdate = DateTime.Parse(Console.ReadLine());
             DateTime today = DateTime.Today;

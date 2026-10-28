@@ -1,3 +1,20 @@
 <Solution>
-  <Project Path="ConsoleApp1.csproj" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/businessLayer/">
+    <Project Path="../BusinessLayer/BusinessLayer.csproj" Id="b8907c92-2009-4155-83c0-637e8fad84b7" />
+  </Folder>
+  <Folder Name="/src/businessLayer/Extension/">
+    <File Path="StringExtensions.cs" />
+  </Folder>
+  <Folder Name="/src/businessLayer/Validations/">
+    <File Path="Class1.cs" />
+    <File Path="MobileValidations.cs" />
+  </Folder>
+  <Folder Name="/src/dataLayer/">
+    <Project Path="../DataLayer/DataLayer.csproj" Id="6f0d0462-5ea0-4e93-89c3-da47300326f7" />
+  </Folder>
+  <Folder Name="/src/presentationLayer/">
+    <Project Path="ConsoleApp1.csproj" />
+  </Folder>
+  <Project Path="../../2/WinFormsApp/WinFormsApp.csproj" />
 </Solution>
